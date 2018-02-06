@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:padding="5dp"
+    android:layout_marginTop="2dp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/rack"
+        android:layout_width="190dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/mark"
+        android:textColor="#ffffff"
+        android:layout_width="195dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="MOTOROLA"
+        android:id="@+id/job1"
+        android:layout_width="190dp" />
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="MOTOROLA"
+        android:id="@+id/job2"
+        android:layout_width="190dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/job3"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/job4"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job5"
+        android:textColor="#ffffff"
+        android:layout_width="193dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job6"
+        android:textColor="#ffffff"
+        android:layout_width="189dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job7"
+        android:textColor="#ffffff"
+        android:layout_width="187dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job8"
+        android:textColor="#ffffff"
+        android:layout_width="191dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job9"
+        android:textColor="#ffffff"
+        android:layout_width="195dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job10"
+        android:textColor="#ffffff"
+        android:layout_width="194dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/user"
+        android:textColor="#ffffff"
+        android:layout_width="190dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:textColor="#ffffff"
+        android:layout_width="190dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:textColor="#ffffff"
+        android:layout_width="192dp" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">dbconnect</string>
+    <string name="conecion_succesfull">Conecion succesfull</string>
+    <string name="close">Close</string>
+</resources>

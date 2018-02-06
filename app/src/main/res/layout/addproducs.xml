@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#282828">
+
+
+    <requestFocus
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/lstproducts"
+        android:id="@+id/EdtText"
+        android:nextFocusDown="@+id/EdtText"
+        android:layout_alignBottom="@+id/btnUpdate1" />
+
+    <ListView
+        android:id="@+id/lstproducts"
+        android:divider="#808080"
+        android:dividerHeight="1dp"
+        android:padding="5dp"
+        android:layout_weight="2.74"
+        android:layout_width="250dp"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="10dp">
+
+    </ListView>
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 2"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry2"
+        android:layout_width="90dp"
+        android:layout_below="@+id/EdtDry1"
+        android:layout_alignStart="@+id/EdtDry1"
+        android:layout_height="40dp"
+        android:layout_toStartOf="@+id/EdtMarker1" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 5"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry5"
+        android:layout_width="90dp"
+        android:layout_below="@+id/EdtDry4"
+        android:layout_alignStart="@+id/EdtDry4"
+        android:layout_height="40dp"
+        android:layout_toStartOf="@+id/EdtMarker4" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 6"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry6"
+        android:layout_width="90dp"
+        android:layout_below="@+id/EdtDry5"
+        android:layout_alignStart="@+id/EdtDry5"
+        android:layout_height="40dp"
+        android:layout_toStartOf="@+id/EdtMarker5" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 3"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker3"
+        android:layout_width="80dp"
+        android:layout_alignBottom="@+id/EdtDry3"
+        android:layout_toEndOf="@+id/EdtDry2"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtDry2" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 4"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker4"
+        android:layout_width="80dp"
+        android:layout_below="@+id/EdtMarker3"
+        android:layout_toEndOf="@+id/EdtDry4"
+        android:layout_height="40dp" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 10"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker10"
+        android:layout_height="30dp"
+        android:layout_width="80dp"
+        android:layout_alignBottom="@+id/EdtDry10"
+        android:layout_toEndOf="@+id/EdtDry9"
+        android:layout_below="@+id/EdtMarker9" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 13"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker13"
+        android:layout_height="30dp"
+        android:layout_width="80dp"
+        android:layout_alignBottom="@+id/EdtDry13"
+        android:layout_toEndOf="@+id/EdtDry12"
+        android:layout_below="@+id/EdtMarker12" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 14"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker14"
+        android:layout_height="30dp"
+        android:layout_width="80dp"
+        android:layout_alignBottom="@+id/EdtDry14"
+        android:layout_toEndOf="@+id/EdtDry13"
+        android:layout_below="@+id/EdtMarker13" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 15"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker15"
+        android:layout_height="30dp"
+        android:layout_width="80dp"
+        android:layout_alignBottom="@+id/EdtDry15"
+        android:layout_toEndOf="@+id/EdtDry15"
+        android:layout_below="@+id/EdtMarker14" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 16"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker16"
+        android:layout_height="30dp"
+        android:layout_width="80dp"
+        android:layout_alignBottom="@+id/EdtDry16"
+        android:layout_toEndOf="@+id/EdtDry15"
+        android:layout_below="@+id/EdtMarker15" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 18"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker18"
+        android:layout_height="30dp"
+        android:layout_width="80dp"
+        android:layout_alignBottom="@+id/EdtDry18"
+        android:layout_toEndOf="@+id/EdtDry18"
+        android:layout_below="@+id/EdtMarker17" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 19"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker19"
+        android:layout_height="30dp"
+        android:layout_width="80dp"
+        android:layout_alignBottom="@+id/EdtDry19"
+        android:layout_toEndOf="@+id/EdtDry18"
+        android:layout_below="@+id/EdtMarker18" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 20"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker20"
+        android:layout_height="30dp"
+        android:layout_width="80dp"
+        android:layout_alignBottom="@+id/EdtDry20"
+        android:layout_toEndOf="@+id/EdtDry20"
+        android:layout_alignTop="@+id/EdtDry20" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 8"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker8"
+        android:layout_height="30dp"
+        android:layout_width="80dp"
+        android:layout_alignBottom="@+id/EdtDry8"
+        android:layout_toEndOf="@+id/EdtDry7"
+        android:layout_below="@+id/EdtDry7" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 9"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker9"
+        android:layout_height="30dp"
+        android:layout_width="80dp"
+        android:layout_alignBottom="@+id/EdtDry9"
+        android:layout_toEndOf="@+id/EdtDry9"
+        android:layout_alignTop="@+id/EdtDry9" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 2"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker2"
+        android:layout_width="80dp"
+        android:layout_alignBottom="@+id/EdtDry2"
+        android:layout_toEndOf="@+id/EdtDry2"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtDry1" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 12"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker12"
+        android:layout_height="30dp"
+        android:layout_width="80dp"
+        android:layout_alignBottom="@+id/EdtDry12"
+        android:layout_toEndOf="@+id/EdtDry12"
+        android:layout_below="@+id/EdtMarker11" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 17"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker17"
+        android:layout_height="30dp"
+        android:layout_width="80dp"
+        android:layout_alignBottom="@+id/EdtDry17"
+        android:layout_toEndOf="@+id/EdtDry16"
+        android:layout_below="@+id/EdtMarker16" />
+
+    <Button
+        android:layout_weight="1"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:padding="7dp"
+        android:id="@+id/btnadd"
+        android:text="Atnaujinti"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_width="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="60dp"
+        android:layout_above="@+id/checkBox11" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c13"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox13"
+        android:layout_below="@+id/EdtMarker12"
+        android:layout_toEndOf="@+id/EdtMarker13"
+        android:layout_width="60dp" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c16"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox16"
+        android:layout_alignBaseline="@+id/EdtMarker16"
+        android:layout_alignBottom="@+id/EdtMarker16"
+        android:layout_toEndOf="@+id/EdtMarker15"
+        android:layout_width="60dp" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c12"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox12"
+        android:layout_alignBaseline="@+id/checkBox2"
+        android:layout_alignBottom="@+id/checkBox2"
+        android:layout_toEndOf="@+id/EdtMarker11"
+        android:layout_width="60dp" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 11"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker11"
+        android:layout_height="30dp"
+        android:layout_width="80dp"
+        android:layout_alignBottom="@+id/EdtDry11"
+        android:layout_toEndOf="@+id/EdtDry11"
+        android:layout_alignTop="@+id/EdtDry11" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c02"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox2"
+        android:layout_alignBaseline="@+id/EdtMarker2"
+        android:layout_alignBottom="@+id/EdtMarker2"
+        android:layout_toEndOf="@+id/EdtMarker1"
+        android:layout_width="60dp" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="padeklo NR"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtHolder"
+        android:layout_height="30dp"
+        android:layout_width="190dp"
+
+        android:layout_below="@+id/btnPadeklas"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/btnPadeklas"
+        android:layout_above="@+id/checkBox15" />
+
+    <Button
+        android:text="Delete padeklas"
+        android:textSize="10sp"
+        android:layout_width="190dp"
+        android:id="@+id/btnPadeklas"
+        android:layout_height="50dp"
+        android:layout_above="@+id/checkBox4"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/pbbar"
+        android:layout_alignStart="@+id/btnKamera" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/pbbar"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/btnadd" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 1"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker1"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/EdtDry1"
+        android:layout_toEndOf="@+id/EdtDry1"
+        android:layout_alignTop="@+id/EdtDry1" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 5"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker5"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtMarker4"
+        android:layout_toEndOf="@+id/EdtDry5" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 6"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker6"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtMarker5"
+        android:layout_toEndOf="@+id/EdtDry5" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Marker 7"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#6a1a1a"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtMarker7"
+        android:layout_height="40dp"
+        android:layout_width="80dp"
+        android:layout_toEndOf="@+id/EdtDry6"
+        android:layout_below="@+id/EdtDry6"
+        android:layout_above="@+id/EdtMarker8" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 7"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry7"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtDry6"
+        android:layout_alignStart="@+id/EdtDry6"
+        android:layout_toStartOf="@+id/EdtMarker6" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 8"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry8"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/EdtDry7"
+        android:layout_below="@+id/EdtDry7"
+        android:layout_toStartOf="@+id/EdtMarker8"
+        android:layout_above="@+id/EdtDry19" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c01"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox1"
+        android:layout_width="60dp"
+        android:layout_alignTop="@+id/EdtMarker1"
+        android:layout_toEndOf="@+id/EdtMarker1"
+        android:layout_above="@+id/EdtMarker2" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c09"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox9"
+        android:layout_width="60dp"
+        android:layout_below="@+id/EdtMarker8"
+        android:layout_toEndOf="@+id/EdtMarker8" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c10"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox10"
+        android:layout_width="60dp"
+        android:layout_below="@+id/EdtMarker9"
+        android:layout_toEndOf="@+id/EdtMarker10" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c08"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox8"
+        android:layout_width="60dp"
+        android:layout_below="@+id/EdtMarker7"
+        android:layout_toEndOf="@+id/EdtMarker8" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c07"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox7"
+        android:layout_width="60dp"
+        android:layout_alignBaseline="@+id/EdtMarker7"
+        android:layout_alignBottom="@+id/EdtMarker7"
+        android:layout_toEndOf="@+id/EdtMarker7" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c06"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox6"
+        android:layout_width="60dp"
+        android:layout_alignBaseline="@+id/EdtMarker6"
+        android:layout_alignBottom="@+id/EdtMarker6"
+        android:layout_toEndOf="@+id/EdtMarker6" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c05"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox5"
+        android:layout_width="60dp"
+        android:layout_below="@+id/EdtMarker4"
+        android:layout_toEndOf="@+id/EdtMarker4" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c04"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox4"
+        android:layout_width="60dp"
+        android:layout_alignBaseline="@+id/EdtMarker4"
+        android:layout_alignBottom="@+id/EdtMarker4"
+        android:layout_toEndOf="@+id/EdtMarker4" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c03"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox3"
+        android:layout_width="60dp"
+        android:layout_below="@+id/EdtMarker2"
+        android:layout_toEndOf="@+id/EdtMarker3" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 3"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry3"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtDry2"
+        android:layout_alignStart="@+id/EdtDry2"
+        android:layout_toStartOf="@+id/EdtMarker3" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 4"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry4"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtDry3"
+        android:layout_alignStart="@+id/EdtDry3"
+        android:layout_toStartOf="@+id/EdtMarker3" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 12"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry12"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtDry11"
+        android:layout_alignStart="@+id/EdtDry11"
+        android:layout_alignEnd="@+id/EdtDry11" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 13"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry13"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtDry12"
+        android:layout_alignStart="@+id/EdtDry12"
+        android:layout_toStartOf="@+id/EdtMarker13" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 14"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry14"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtDry13"
+        android:layout_alignStart="@+id/EdtDry13"
+        android:layout_toStartOf="@+id/EdtMarker14" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 15"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry15"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtDry14"
+        android:layout_alignStart="@+id/EdtDry14"
+        android:layout_alignEnd="@+id/EdtDry14" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 16"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry16"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtDry15"
+        android:layout_alignStart="@+id/EdtDry15"
+        android:layout_toStartOf="@+id/EdtMarker16" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 17"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry17"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtDry16"
+        android:layout_alignStart="@+id/EdtDry16"
+        android:layout_toStartOf="@+id/EdtMarker17" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 18"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry18"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtDry17"
+        android:layout_alignStart="@+id/EdtDry17"
+        android:layout_alignEnd="@+id/EdtDry17" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 19"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry19"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtDry18"
+        android:layout_alignStart="@+id/EdtDry18"
+        android:layout_toStartOf="@+id/EdtMarker19" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 20"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry20"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtDry19"
+        android:layout_alignStart="@+id/EdtDry19"
+        android:layout_alignEnd="@+id/EdtDry19" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c20"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox20"
+        android:layout_width="60dp"
+        android:layout_below="@+id/EdtMarker19"
+        android:layout_toEndOf="@+id/EdtMarker20" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c19"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox19"
+        android:layout_width="60dp"
+        android:layout_below="@+id/EdtMarker18"
+        android:layout_toEndOf="@+id/EdtMarker19" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c18"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox18"
+        android:layout_width="60dp"
+        android:layout_below="@+id/EdtMarker17"
+        android:layout_toEndOf="@+id/EdtMarker18" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c17"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox17"
+        android:layout_width="60dp"
+        android:layout_below="@+id/EdtMarker16"
+        android:layout_toEndOf="@+id/EdtMarker17" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c15"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox15"
+        android:layout_width="60dp"
+        android:layout_below="@+id/EdtMarker14"
+        android:layout_toEndOf="@+id/EdtMarker14" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c14"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox14"
+        android:layout_width="60dp"
+        android:layout_below="@+id/EdtMarker13"
+        android:layout_toEndOf="@+id/EdtMarker13" />
+
+    <CheckBox
+        android:background="@android:color/holo_red_dark"
+        android:text="c11"
+        android:layout_height="30dp"
+        android:id="@+id/checkBox11"
+        android:layout_width="60dp"
+        android:layout_alignTop="@+id/EdtMarker11"
+        android:layout_toEndOf="@+id/EdtMarker11" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="KAMERA"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtCoater"
+        android:layout_height="30dp"
+        android:layout_width="70dp"
+        android:layout_above="@+id/checkBox20"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/btnKamera" />
+
+    <Button
+        android:text="Tikrinimas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/pbbar"
+        android:layout_marginEnd="18dp"
+        android:id="@+id/BtnNext"
+        android:layout_above="@+id/checkBox11" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 9"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry9"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtDry8"
+        android:layout_alignStart="@+id/EdtDry8"
+        android:layout_toStartOf="@+id/EdtMarker8" />
+
+    <Button
+        android:text="Delete kamera"
+        android:textSize="10sp"
+        android:id="@+id/btnKamera"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/checkBox18"
+        android:layout_alignBottom="@+id/checkBox18"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Delete laikiklis"
+        android:textSize="10sp"
+        android:id="@+id/btnLaikiklis"
+        android:layout_width="100dp"
+        android:layout_alignBaseline="@+id/EdtMarker15"
+        android:layout_alignBottom="@+id/EdtMarker15"
+        android:layout_alignStart="@+id/EdtHolder"
+        android:layout_height="60dp" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Laikiklio Nr"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtCoterHolder"
+        android:layout_width="190dp"
+
+        android:layout_above="@+id/btnKamera"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/btnKamera"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:text="1.0.7AR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EdtMarker12"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textView"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="USER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkBox2"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textView3"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnExit"
+        android:background="@mipmap/exit2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        style="@style/Widget.AppCompat.Button" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 1"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry1"
+        android:layout_height="40dp"
+        android:layout_width="130dp"
+        android:layout_below="@+id/btnUpdate1"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/BtnExit" />
+
+    <Button
+        android:layout_weight="1"
+        android:background="#5d5d5d"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:padding="7dp"
+        android:id="@+id/btnUpdate1"
+        android:text="refresh from HC"
+        android:layout_width="100dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/EdtText" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 10"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry10"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtMarker9"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_weight="1"
+        android:background="#5d5d5d"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:padding="7dp"
+        android:id="@+id/btnCoater"
+        android:text="Dome refresh"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/BtnNext"
+        android:layout_marginEnd="13dp" />
+
+    <EditText
+        android:textSize="10sp"
+        android:hint="Dziovinamas 11"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:background="#5d5d5d"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:layout_gravity="top|left"
+        android:id="@+id/EdtDry11"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/EdtText"
+        android:layout_toEndOf="@+id/checkBox1" />
+
+</RelativeLayout>

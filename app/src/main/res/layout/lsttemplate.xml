@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:padding="5dp"
+    android:layout_marginTop="2dp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/rack"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/mark"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="MOTOROLA"
+        android:id="@+id/job1"
+        android:layout_width="200dp" />
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="MOTOROLA"
+        android:id="@+id/job2"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job3"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job4"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job5"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job6"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job7"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job8"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job9"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job10"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/user"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job11"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job12"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job13"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job14"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:id="@+id/job15"
+        android:textColor="#ffffff"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker1"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker2"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker3"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker4"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker5"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker6"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker7"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker8"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker9"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker10"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker11"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/maker12"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker13"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker14"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker15"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker16"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker17"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker18"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker19"
+        android:layout_width="200dp" />
+
+    <TextView
+        android:layout_height="0dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="1"
+        android:id="@+id/marker20"
+        android:layout_width="200dp" />
+
+</LinearLayout>
